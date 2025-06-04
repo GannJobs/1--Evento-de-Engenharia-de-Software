@@ -1,5 +1,5 @@
 # Vamos começar
-Primeira coisa é que você deve ter uma versão do python que suporta o django, estarei usando neste tutorial a versão 3.8
+Primeira coisa é que você deve ter uma versão do python que suporta o django, estarei usando neste tutorial a versão 3.13.3
 
 # 1 Etapa
 Agora com o python instalado precisamos de um lugar para trabalhar, usaremos o VS code para isso, então, vamos começar.
@@ -16,7 +16,7 @@ python -m venv venv
 ```
 pip install django djangorestframework
 ```
-- Iniciar nosso projeto django
+- Iniciar nosso projeto django.
 ```
 django-admin startproject Seu_Projeto .
 ```
