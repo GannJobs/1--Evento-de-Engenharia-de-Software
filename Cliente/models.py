@@ -38,3 +38,6 @@ class Cliente(models.Model):
     status = models.BooleanField(default=True)
     telefone = models.CharField(max_length=15, blank=True, null=True)
     endereco = models.ForeignKey(Endereco, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.vinculo.first_name
