@@ -6,6 +6,9 @@ class Plano(models.Model):
     valor = models.DecimalField(max_digits=10, decimal_places=2)
     beneficios = models.TextField()
 
+    def __str__(self):
+        return self.nome
+
 class Plano_Cliente(models.Model):
     plano = models.ForeignKey(Plano, on_delete=models.CASCADE)
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
