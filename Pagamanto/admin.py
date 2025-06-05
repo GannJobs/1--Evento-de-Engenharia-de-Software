@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Pagamento, Forma_Pagamento
 
-# Register your models here.
+admin.site.register(Pagamento)
+admin.site.register(Forma_Pagamento)

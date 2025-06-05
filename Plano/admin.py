@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Plano, Plano_Cliente
 
-# Register your models here.
+admin.site.register(Plano)
+admin.site.register(Plano_Cliente)
+

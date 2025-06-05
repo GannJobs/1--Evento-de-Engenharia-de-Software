@@ -40,8 +40,9 @@ INSTALLED_APPS = [
     'Cliente',
     'Plano',
     'Pagamanto',
+    'Funcionario',
     'rest_framework',
-    'rest_framework.authtoken',
+    'rest_framework.authtoken'
 ]
 
 MIDDLEWARE = [

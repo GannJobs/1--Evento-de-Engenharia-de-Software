@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Funcionario, Nivel_Acesso
 
-# Register your models here.
+admin.site.register(Funcionario)
+admin.site.register(Nivel_Acesso)
